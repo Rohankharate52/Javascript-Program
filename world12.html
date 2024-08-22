@@ -1,0 +1,227 @@
+
+
+<script>
+
+    for (var i=0; i<3;i++) 
+    {
+        setTimeout(() => console.log(i),1);
+
+    }
+</script>
+//3 time 
+
+
+use let 
+
+output: 0 1 2 
+
+
+
+
+// qun  4 
+
+  console.warn(+true) ;
+  console.warn(typeof +true) ;
+
+  //output: 1 
+            number 
+
+
+
+
+
+
+//qun 5 
+
+console.warn(!"anil");
+console.warn(typeof("anil"));
+ 
+
+output:
+
+//false
+//string 
+
+
+!! "rohan"  
+
+string cha boolern hote... 
+! single n false 
+
+
+
+
+//qun 6 
+
+let c ={ name : "peter" };
+let d ;
+
+d=c;
+c.name="anil";
+console.log(d.name);
+
+
+//output: anil
+
+
+//qun 7
+
+var x;
+var x=10;
+console.log(x);
+
+//output: 10
+
+
+
+
+//qun 8
+
+let a=3;
+let b= new number(3);
+console.log(a == b);
+console.log( a ===b);
+
+output: true ,
+        false ,  
+
+        == cheak only same same 
+        === data also chek is same or 
+
+
+
+//qun 9
+
+function fruit () {
+    console.log("woof!");
+
+}
+fruit.name = "apple";
+
+fruit() 
+
+
+//output: woof...
+
+
+
+//qun 10
+
+function sum (a,b) {
+    return a+b;
+
+}
+console.warn(sum(1 ,"2")) 
+
+
+output: 12
+
+
+
+
+//qun 11
+
+let number = 0;
+console.log(number++) ;
+console.log(++number);
+console.log(number);
+
+output: 0 2 2 
+
+
+
+
+//qun 12
+
+funtion getAge(...args) {
+    console.log(typeof args);
+
+}
+getAge(21);
+
+//output: object 
+
+
+
+//qun 13
+const sum = eval('10*10+5');
+console.warn(sum)
+
+
+//output: 105
+
+
+
+//qun 15
+
+const obj = { a: "one",b:"two",a:"repeat" };
+console.log(obj);
+
+//output:  a:repeat ,  b two
+
+
+
+//qun 16
+
+for (let i=1; i<5; i++) {
+    if(i===3)continue;
+    connsole.log(i);
+
+}
+
+//output:  1 2 4 
+
+
+
+
+
+
+
+//qun 18
+
+function sayhi() {
+    return (() => 0)();  // 0  jagi jr 
+                         "rohan "
+                         output: string asel  
+}
+console.log(typeof sayhi () );
+
+
+output: number..
+
+
+
+
+//qun 18
+
+console.log(typeof typeof 1);
+
+//output: string 
+
+
+//everthing in js is either a 
+=> primitive or object ..
+
+
+
+(!!null) ;
+(!!"");
+(!! 1);
+
+f f t 
+
+
+//qun 22
+
+let data = 3+4+'5';
+console.log(data);
+
+
+//output: 75 
+
+
+//qun 23
+
+console.log(typeof (3+4 + + '5'));
+
+output: number..

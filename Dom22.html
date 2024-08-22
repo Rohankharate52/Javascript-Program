@@ -1,0 +1,84 @@
+
+
+
+
+
+<!DOCTYPE html> 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code DOM </title>
+</head>
+<body  style=" background-color: #212121; color: #212121;">
+    <UL class="Lag"> 
+        <li> javascript</li>
+    </UL> 
+
+    <script> //innew html ...
+        function addlag(lagname) {
+           const li =  document.createElement('li');
+            li.innerHTML = `$(lagname)`
+            document.querySelector('.lag').
+            appendChild(li) 
+
+        }
+        addlag("pthon")
+        addlag("ts")
+     
+
+        //appendchild ke upar......
+
+        function addoptilagname (lagname) 
+        {
+           const li =  document.createElement('li')
+    
+
+
+           li.appendChild(document.createTextNode(lagname))
+
+           document.querySelector('.lag') .appendChild(li) 
+           
+        } 
+       addoptilagname('golag') 
+
+      //EDIT SELCTOR
+
+
+     const firstlang =  document.querySelector( "li:nth-child(2)")
+     const newli = document.createElement('li')
+     newli.textContent = "mojo"
+
+     secondlag.replaceWith(newli) 
+
+     // pthon ke jaga mojo aa gayaa.....
+
+
+
+
+
+
+
+
+
+     //edit ldkskkkkkkkkkkkkkkkkkk
+
+
+     const secondlang = document.querySelector("li: first-child")
+
+     firstlang.outerHTML = '<li> TypeScript</li>'
+
+    //javasciopt to typescoipt mai change ...
+
+
+     //removemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+
+     const lastlang = document.querySelector('li: last-child')
+     lastlang.remove() 
+     //golagn remove ho gaya 
+    </script>
+    
+</body>
+</html>

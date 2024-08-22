@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code DOM </title>
+</head>
+<body  style=" background-color: #212121; color: #212121;">
+    <UL class="Lag"> 
+        <li> javascript</li>
+    </UL> 
+
+    <script>
+        function addlag(lagname) {
+           const li =  document.createElement('li');
+            li.innerHTML = `$(lagname)`
+            document.querySelector('.lag').
+            appendChild(li) 
+
+        }
+        addlag("pthon")
+        addlag("ts")
+
+    </script>
+    
+</body>
+</html>
